@@ -64,7 +64,7 @@ const MediQButton = ({
         text-white  rounded-full 
         shadow-[0_4px_15px_rgba(76,199,171,0.3)] 
         hover:shadow-[0_8px_25px_rgba(76,199,171,0.5)] 
-        active:scale-95 transition-all duration-300 cursor-pointer
+        active:scale-95 transition-all duration-300 cursor-pointer 
         ${config.container}
         ${className}
       `}
@@ -77,7 +77,7 @@ const MediQButton = ({
         className={`
         ${config.circle} 
         bg-white rounded-full flex items-center justify-center 
-        shadow-sm group-hover:scale-110 transition-transform duration-300
+        shadow-sm group-hover:scale-110 transition-transform duration-300 ml-2
       `}
       >
         <svg

@@ -13,7 +13,7 @@ const KnowledgeSection = () => {
   ];
 
   return (
-    <section className=" bg-[#f2f2f2]">
+    <section id="knowledge" className=" bg-[#f2f2f2]">
       <div className="max-w-6xl mx-auto px-6 py-16">
         {/* Header Badge */}
         <div className="flex justify-center mb-6">

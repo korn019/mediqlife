@@ -19,7 +19,10 @@ const WhyMustUseMediQ: NextPage<Props> = () => {
     { name: "Pharmacist Anywhere — เภสัชกรใกล้คุณ", active: false },
   ];
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20 bg-white font-sans overflow-hidden">
+    <section
+      id="benefits"
+      className="max-w-7xl mx-auto px-6 py-20 bg-white  overflow-hidden"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left Column: หัวข้อและ Badge รายการระบบ */}
         <div className=" lg:col-span-4 space-y-8">

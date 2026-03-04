@@ -6,7 +6,7 @@ interface Props {}
 
 const WhyDidMediQHappen: NextPage<Props> = () => {
   return (
-    <section>
+    <section id="why-mediq">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
@@ -28,8 +28,8 @@ const WhyDidMediQHappen: NextPage<Props> = () => {
             </Button>
           </div>
           <div>
-            <h2 className="subheading">{`เพราะ "สุขภาพ" คือของขวัญที่เราห่วงใยที่สุด`}</h2>
-            <p className="heading-section">
+            <h2 className="subheading font-medium">{`เพราะ "สุขภาพ" คือของขวัญที่เราห่วงใยที่สุด`}</h2>
+            <p className="heading-section font-semibold">
               MediQ เกิดขึ้นจากทีมเภสัชกรและนักพัฒนาซอฟต์แวร์
               ที่มีประสบการณ์กว่า 30 ปี <br />{" "}
               เพื่อสร้างสิ่งเชื่อมโยงของความรักและความห่วงใย
@@ -50,7 +50,7 @@ const WhyDidMediQHappen: NextPage<Props> = () => {
               </div>
               {/* ข้อความใต้รูปซ้าย */}
               <div className="bg-gray-100 p-6 rounded-2xl">
-                <p className="text-gray-800 text-sm leading-relaxed">
+                <p className="  text-lg leading-relaxed">
                   เพราะ <span className="font-bold">"สุขภาพ"</span>
                   <br />
                   คือของขวัญที่เราห่วงใยที่สุด
@@ -71,7 +71,7 @@ const WhyDidMediQHappen: NextPage<Props> = () => {
           {/* ส่วนเนื้อหาด้านขวา */}
           <div className="flex-1 space-y-6">
             <div className="space-y-2">
-              <h3 className="text-gray-500 text-xl">
+              <h3 className="text-paragraph text-xl font-medium">
                 ให้คุณมั่นใจได้ว่า
                 <br />
                 ทุกคนในครอบครัว
@@ -87,11 +87,11 @@ const WhyDidMediQHappen: NextPage<Props> = () => {
                 ))}
               </div>
 
-              <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
                 ได้รับการดูแลสุขภาพ
                 <br />
                 อย่างต่อเนื่องและถูกต้องเสมอ
-              </h1>
+              </h2>
             </div>
 
             {/* ปุ่ม Learn More */}
