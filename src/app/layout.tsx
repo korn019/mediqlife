@@ -12,8 +12,9 @@ import { Noto_Sans_Thai } from "next/font/google";
 import Footer from "@/components/modules/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Next App Mantine Tailwind Template",
-  description: "Next App Mantine Tailwind Template",
+  title: "MediQ - your Family Pharmacist",
+  description:
+    "เราเข้าใจว่าคุณมีหน้าที่ที่มากมายในชีวิต จนบางครั้งอาจลืมดูแลตัวเอง หรือคนที่คุณรัก",
 };
 
 const noto = Noto_Sans_Thai({
